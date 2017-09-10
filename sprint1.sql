@@ -3,9 +3,12 @@ CREATE DATABASE `OngAnimais`;
 USE `OngAnimais`;
 
 DROP TABLE IF EXISTS `Species`;
-CREATE TABLE `Species` (
+CREATE TABLE `Species`
+(
 	`idSpecies` bigint NOT NULL AUTO_INCREMENT,
-	`name` varchar(20) NOT NULL,
+	`name` varchar
+(20) NOT NULL,
 	`status` bool NOT NULL,
-	PRIMARY KEY (`idSpecies`)
+	PRIMARY KEY
+(`idSpecies`)
 );
